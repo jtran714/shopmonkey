@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
 import helmet from 'helmet';
-import morgon from 'morgon';
+import morgan from 'morgan';
 
 // APP CONFIGS
 dotenv.config();
@@ -12,7 +12,7 @@ const app = express();
 app.use(express.json());
 app.use(helmet());
 app.use(helmet.crossOriginResourcePolicy({ policy: 'cross-origin'}));
-app.use(morgon('common'));
+app.use(morgan('common'));
 app.use(bodyParser.json);
 app.use(bodyParser.urlencoded({extended: false }));
 app.use(cors());
