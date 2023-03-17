@@ -10,7 +10,6 @@ import managementRoutes from './routes/management.js'
 import generalRoutes from './routes/general.js'
 import salesRoutes from './routes/sales.js'
 
-
 // APP CONFIGS
 dotenv.config();
 const app = express();
