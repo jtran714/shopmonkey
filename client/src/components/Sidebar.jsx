@@ -192,7 +192,6 @@ export default function Sidebar({
               })}
             </List>
           </Box>
-          
         </Drawer>
       )}
     </Box>

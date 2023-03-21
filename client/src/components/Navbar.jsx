@@ -19,7 +19,7 @@ import {
 } from "@mui/material";
 import profileImage from "assets/profile.png";
 
-export default function Navbar() {
+export default function Navbar({ isSidebarOpen, setIsSidebarOpen }) {
   const dispatch = useDispatch();
   const theme = useTheme();
 
@@ -34,7 +34,7 @@ export default function Navbar() {
       <Toolbar sx={{ justifyContent: "space-between" }}>
         {/* LEFT SIDE */}
         <FlexBetween>
-          <IconButton onClick={() => console.log("open/close sidebar")}>
+          <IconButton onClick={() => setIsSidebarOpen(!isSidebarOpen)}>
             <MenuIcon />
           </IconButton>
           <FlexBetween
@@ -62,8 +62,6 @@ export default function Navbar() {
           <IconButton>
             <SettingsOutlined sx={{ fontSize: "25px" }} />
           </IconButton>
-
-
         </FlexBetween>
       </Toolbar>
     </AppBar>
