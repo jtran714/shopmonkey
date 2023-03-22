@@ -24,7 +24,6 @@ export const getDashboardStats = async (req, res) => {
       .limit(50)
       .sort({ createdOn: -1 });
 
-    /* Overall Stats */
     const overallStat = await OverallStat.find({ year: currentYear });
 
     const {
