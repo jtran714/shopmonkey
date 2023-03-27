@@ -1,7 +1,7 @@
 import React from "react";
-import { Typography } from "@mui/material";
+import { Typography, Box, useTheme } from "@mui/material";
 
-export default function Header() {
+export default function Header({ title, subtitle }) {
   const theme = useTheme();
   return (
     <Box>

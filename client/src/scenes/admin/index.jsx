@@ -3,7 +3,7 @@ import { Box, useTheme } from "@mui/material";
 import { useGetAdminsQuery } from "state/api";
 import { DataGrid } from "@mui/x-data-grid";
 import Header from "components/Header";
-import CustomColumnMenu from "components/dataGridCustomColumnMenu";
+import CustomColumnMenu from "components/DataGridCustomColumnMenu";
 
 export default function Admin() {
   const theme = useTheme();

@@ -5,7 +5,7 @@ import { useGetTransactionsQuery } from "state/api";
 import Header from "components/Header";
 import DataGridCustomToolbar from "components/DataGridCustomToolbar";
 
-export default function transaction() {
+const Transactions = () => {
   const theme = useTheme();
 
   // values to be sent to the backend
@@ -106,4 +106,6 @@ export default function transaction() {
       </Box>
     </Box>
   );
-}
+};
+
+export default Transactions;
