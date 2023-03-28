@@ -42,4 +42,4 @@ export default function StatBox({ title, value, increase, icon, description }) {
       </FlexBetween>
     </Box>
   );
-}
+};
