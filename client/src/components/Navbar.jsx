@@ -124,4 +124,4 @@ export default function Navbar({ user, isSidebarOpen, setIsSidebarOpen }) {
       </Toolbar>
     </AppBar>
   );
-}
+};

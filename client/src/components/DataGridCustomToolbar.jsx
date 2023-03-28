@@ -42,4 +42,4 @@ export default function ({ searchInput, setSearchInput, setSearch }) {
       </FlexBetween>
     </GridToolbarContainer>
   );
-}
+};
