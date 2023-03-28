@@ -146,7 +146,7 @@ export default function Sidebar({
               {navItems.map(({ text, icon }) => {
                 if (!icon) {
                   return (
-                    <Typography key={text} sx={{ margin: "2.25rem 0 1rem 3rem" }}>
+                    <Typography key={text} sx={{ margin: "2.25rem 0 1rem 2.5rem" }}>
                       {text}
                     </Typography>
                   );
@@ -231,4 +231,4 @@ export default function Sidebar({
       )}
     </Box>
   );
-}
+};
