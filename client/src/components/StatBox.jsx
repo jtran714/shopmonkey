@@ -11,7 +11,7 @@ export default function StatBox({ title, value, increase, icon, description }) {
       display="flex"
       flexDirection="column"
       justifyContent="space-between"
-      p="1.25rem 1rem"
+      p="1.20rem 1rem"
       flex="1 1 100%"
       backgroundColor={theme.palette.background.alt}
       borderRadius="0.55rem"
