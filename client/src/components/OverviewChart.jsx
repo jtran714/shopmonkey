@@ -3,7 +3,7 @@ import { ResponsiveLine } from "@nivo/line";
 import { useTheme } from "@mui/material";
 import { useGetSalesQuery } from "state/api";
 
-export default function OverviewChart() {
+export default function OverviewChart({ isDashboard = false, view }) {
   const theme = useTheme();
   const { data, isLoading } = useGetSalesQuery();
 

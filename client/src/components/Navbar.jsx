@@ -12,6 +12,11 @@ import { useDispatch } from "react-redux";
 import { setMode } from "state";
 import {
   Toolbar,
+  Button,
+  Box,
+  Typography,
+  Menu,
+  MenuItem,
   useTheme,
   AppBar,
   IconButton,
@@ -19,7 +24,7 @@ import {
 } from "@mui/material";
 import profileImage from "assets/profile.png";
 
-export default function Navbar({ isSidebarOpen, setIsSidebarOpen }) {
+export default function Navbar({ user, isSidebarOpen, setIsSidebarOpen }) {
   const dispatch = useDispatch();
   const theme = useTheme();
   const [anchorEl, setAnchorEl] = useState(null);
