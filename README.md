@@ -15,5 +15,5 @@ npm run dev (to run the server)
 npm run start (to run react)
 ```
 4. View the application on your own local machine: http://localhost:3000/dashboard
-5. Good to go, enjoy
-6. App url coming in soon, please hang tight.
+5. Under the server file, navigate to index.js, and under "MONGOOSE SETUP", please uncomment data insert codes to populate the database once and then proceed to comment it out. Then refresh the page.
+6. You're now good to go. App URL coming soon.
