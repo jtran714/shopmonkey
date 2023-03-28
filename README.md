@@ -1,5 +1,5 @@
 ## Dashboard Project
-![screenshot](.img/screenshot.png)
+![screenshot](./img/screenshot.png)
 
 ## Overview
 
