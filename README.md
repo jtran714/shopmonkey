@@ -16,5 +16,5 @@ npm run start (to run react)
 ```
 4. Sign up for a mongoDB account and create database deployment. Once finished, input your mongo URL and your port number into your env file.
 5. View the application on your own local machine: http://localhost:3000/dashboard
-6. Under the server file, navigate to index.js, and under "MONGOOSE SETUP", please uncomment data insert codes to populate the database once and then proceed to comment it out. Then refresh the page.
+6. Under the server folder, navigate to index.js, and under "MONGOOSE SETUP", please uncomment data insert codes to populate the database once and then proceed to comment it out. Then refresh the page.
 7. You're now good to go. App URL coming soon.
