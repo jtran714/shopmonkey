@@ -42,7 +42,7 @@ export default function OverviewChart({ isDashboard = false, view }) {
     );
 
     return [[totalSalesLine], [totalUnitsLine]];
-  }, [data]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [data]);
 
   if (!data || isLoading) return "Loading...";
 
